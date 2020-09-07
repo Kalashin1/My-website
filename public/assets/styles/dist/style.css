@@ -1,0 +1,389 @@
+*, *::before, *::after {
+  margin: 0;
+  font-family: consolas;
+  font-size: 14px;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.social-nav {
+  margin-right: auto;
+}
+
+.social-nav a {
+  display: inline-flex;
+  justify-content: center;
+  align-self: center;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+.social-nav a:hover {
+  background: none;
+}
+
+#intro-content {
+  position: absolute;
+}
+
+#services {
+  position: absolute;
+}
+#services #seo img {
+  width: 1211px;
+  height: 662px;
+}
+
+#about {
+  position: absolute;
+  left: 0;
+}
+
+#newsletter {
+  position: absolute;
+  left: 0;
+}
+#newsletter #newsletter-signup {
+  background: #a01d26;
+  position: relative;
+  top: 3rem;
+  border-radius: 1rem;
+}
+#newsletter #newsletter-signup p {
+  margin: 3rem 0;
+}
+#newsletter #newsletter-signup .newsletter-form {
+  width: 80%;
+}
+
+#waves-container {
+  position: absolute;
+  padding: 0;
+  padding-bottom: -10rem;
+  height: fit-content;
+  width: 100vw;
+}
+#waves-container svg {
+  position: relative;
+  top: 4rem;
+}
+
+.nav-wrapper {
+  width: 100%;
+}
+
+#title {
+  width: 100%;
+  height: 400px;
+  margin-top: -2.35rem;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background: url(../marvin-meyer-SYTO3xs06fU-unsplash.jpg) !important;
+  width: 100%;
+  background-attachment: fixed;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1240) {
+  #title {
+    overflow: hidden !important;
+  }
+}
+#title::after {
+  width: 100%;
+  height: 400px;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+#title * {
+  color: #f33d49;
+}
+#title h2 {
+  position: absolute;
+  top: 40%;
+  color: #f33d49;
+  transform: translateY(-50%);
+}
+
+.services .card .material-icons {
+  font-size: 3rem;
+}
+
+.skills h2 {
+  margin-left: 3rem;
+}
+.skills .progress, .skills .html, .skills .css {
+  width: 100%;
+  height: 6px;
+  display: block;
+  border: 1px solid #a01d26;
+}
+.skills .html .inner, .skills .css .inner {
+  display: block;
+  width: 90%;
+  height: 4px;
+}
+.skills .javascript .inner {
+  display: block;
+  width: 75%;
+  height: 4px;
+}
+.skills .php .inner {
+  display: block;
+  width: 65%;
+  height: 4px;
+}
+.skills .mysql .inner {
+  display: block;
+  width: 80%;
+  height: 4px;
+}
+.skills .node .inner {
+  display: block;
+  width: 70%;
+  height: 4px;
+}
+
+#featured-projects {
+  border: none;
+}
+#featured-projects div[id] {
+  border-bottom: none;
+  margin-bottom: 10rem !important;
+}
+#featured-projects #tab-link a {
+  cursor: pointer;
+  margin: 1rem;
+  border: none;
+  transition: 0.1s all ease-in;
+}
+#featured-projects #tab-link a:hover {
+  border-bottom: #aa0011 3px solid;
+}
+#featured-projects .card-action a {
+  margin-left: 5rem;
+  transition: 0.1s linear all;
+}
+#featured-projects .card-action a:hover {
+  color: #26a69a !important;
+  text-decoration: underline;
+}
+
+.layer {
+  color: #fff;
+  margin: 1rem;
+  position: relative;
+  font-size: 1.3rem;
+}
+
+.layer:nth-child(1) {
+  top: -5rem;
+  left: -12rem;
+}
+
+.layer:nth-child(2) {
+  top: 8rem;
+  left: -8rem;
+}
+
+.layer:nth-child(3) {
+  top: -8rem;
+  left: -5rem;
+}
+
+.layer:nth-child(4) {
+  top: -4rem;
+  left: -5rem;
+}
+
+.layer:nth-child(5) {
+  top: 9rem;
+  right: -5rem;
+}
+
+.layer:nth-child(6) {
+  top: -10rem;
+  left: 10rem;
+}
+
+.layer:nth-child(7) {
+  top: -3rem;
+  right: -3rem;
+}
+
+.layer:nth-child(8) {
+  top: -4rem;
+  left: 16rem;
+}
+
+.layer:nth-child(9) {
+  top: 6rem;
+  left: 8rem;
+}
+
+.layer:nth-child(10) {
+  top: 9rem;
+  left: 14rem;
+}
+
+.layer:nth-child(11) {
+  top: -11rem;
+  left: 10rem;
+}
+
+.layer:nth-child(12) {
+  top: -2rem;
+  left: 16rem;
+}
+
+.contact-me {
+  min-height: 800px;
+  width: 100%;
+  border-top: 3rem;
+  background-image: url(../jess-bailey-q10VITrVYUM-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 700px) and (max-width: 1800px) {
+  .contact-me button {
+    position: relative;
+    left: 1.5rem;
+    top: -4rem;
+  }
+}
+.contact-me .card {
+  background: rgba(255, 255, 255, 0.3);
+  transition: 0.4s linear;
+}
+@media screen and (max-width: 1200px) {
+  .contact-me .card {
+    background-color: #fff;
+  }
+}
+.contact-me .card:hover {
+  background-color: #fff;
+}
+.contact-me .card form input[type=text]:focus ~ label {
+  background: none !important;
+}
+
+#blog-page {
+  margin-top: 5rem;
+}
+#blog-page form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#blog-page form .input-field:nth-child(1) {
+  width: 100%;
+}
+#blog-page form .input-field:nth-child(1) input[type=text] {
+  width: 80%;
+}
+#blog-page form .input-field:nth-child(2) {
+  position: relative;
+  left: -10rem;
+  top: -0.5rem;
+}
+@media screen and (max-width: 300px) {
+  #blog-page form .input-field:nth-child(2) {
+    position: relative;
+    left: -5rem !important;
+  }
+}
+#blog-page .category li {
+  font-size: 1rem;
+  color: #a01d26;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem;
+}
+#blog-page .category li a {
+  font-size: 1rem;
+  color: #26a69a;
+  transition: all 0.4s;
+}
+#blog-page .category li a:hover {
+  color: #f57c00;
+}
+#blog-page img.responsive-img {
+  min-height: 300px;
+}
+#blog-page .card-action a {
+  background: #f57c00;
+  border-radius: 10px;
+  transition: 0.4s ease all;
+}
+#blog-page .card-action a:hover {
+  background: #aa0011;
+}
+
+#article-picture {
+  margin-top: 5rem;
+}
+
+#article-content p {
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+  padding: 1.5rem;
+}
+
+main.ng-enter {
+  opacity: 0;
+  transition: 0.5s all ease;
+}
+
+main.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+
+main.ng-leave {
+  opacity: 1;
+  transition: 0.4s all ease;
+}
+
+main.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+
+input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched {
+  border-bottom-color: red !important;
+}
+
+input[disabled=disabled] {
+  cursor: none !important;
+}
+
+#footer {
+  position: absolute;
+  width: 100%;
+  margin-bottom: -0.3rem;
+}
+@media screen and (max-width: 670px) {
+  #footer {
+    bottom: -85%;
+  }
+}
+@media screen and (min-width: 670px) and (max-width: 1800px) {
+  #footer {
+    bottom: -100%;
+  }
+}

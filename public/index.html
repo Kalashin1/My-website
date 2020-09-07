@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Author" content="Kalashin">
+	<meta name="contact" content="KinaneeSamsonJohn@Outlook.com, +2348058637720">
+	<link rel="stylesheet" type="text/css" media="screen" href="assets/lib/font awesome/all.min.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="assets/lib/materialize/material-icons.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="assets/lib/materialize/materialize.min.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="assets/styles/style.css"></link>
+	<title>Kinanee Samson - Services</title>
+    <script src="assets/lib/angular/angular.min.js"></script>
+    <script src="assets/lib/angular/angular-route.min.js"></script>
+    <script src="assets/lib/angular/angular-animate.min.js"></script>
+</head>
+<body>
+
+    <base href="/">
+    <div ng-include="'directives/navbar.html'"></div>
+
+    <!-- Mobile nav -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a class="red-text" href="services">Services</a></li>
+        <li><a class="red-text" href="portfolio">Portforlio</a></li>
+        <li><a href="about" class="red-text bold">About</a></li>
+        <li><a class="red-text" href="contact">Contact</a></li>
+    </ul>
+
+
+    <main ng-view></main>
+
+    <div ng-include="'directives/footer.html'" ng-controller="footerCtrl"></div>
+    
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('user_G8YayRwQd1G7fyZT9e4vn')
+</script>
+
+    <script src="assets/lib/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="assets/lib/font awesome/all.js"></script>
+    <script src="assets/lib/materialize/materialize.min.js"></script>
+    <script src="assets/scripts/app.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

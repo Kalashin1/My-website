@@ -1,0 +1,52 @@
+<banner title="'Contact Me'"></banner>
+<!-- contact form -->
+
+<section class="contact-me">
+    <div class="row">
+        <div class="col s12 l6 push-l6">
+            <h2 class="center-align red-text">{{title}}</h2>
+            <div class="card z-depth-2">
+                <div class="card-content">
+                    <form name="contactForm" novalidate ng-submit="sendMail(contact, $event)">
+                        <div class="input-field">
+                            <i class="material-icons prefix red-text">person</i>
+                            <input type="text" id="name" name="name" ng-required="true" ng-model="contact.name">
+                            <label class="red-text" for="name">Name</label>
+                            <small ng-show="contactForm.name.$touched && contactForm.name.$invalid" class="red-text">Please enter your name</small>
+                        </div>
+                        <div class="input-field">
+                            <i class="material-icons prefix red-text">email</i>
+                            <input type="email" id="email" ng-required="true" name="email" ng-model="contact.email">
+                            <label class="red-text" for="email">Email</label>
+                            <small ng-show="contactForm.email.$touched && contactForm.email.$invalid" class="red-text">Please enter your email</small>
+                        </div>
+                        <div class="input-field">
+                            <i class="material-icons prefix red-text">present_to_all</i>
+                            <input type="text" id="subject" ng-required="true" name="subject"  ng-model="contact.subject">
+                            <label class="red-text" for="subject">Subject</label>
+                            <small ng-show="contactForm.subject.$touched && contactForm.subject.$invalid" class="red-text">Please enter a subject</small>
+                        </div>
+                        <div class="input-field">
+                            <i class="material-icons prefix red-text">message</i>
+                            <textarea class="materialize-textarea" ng-required="true" name="message"  id="message" rows="30" cols="10"  ng-model="contact.message"></textarea>
+                            <label class="red-text" for="message">Your Message</label>
+                            <small ng-show="contactForm.message.$touched && contactForm.message.$invalid" class="red-text">Please enter your message</small>
+                        </div>
+                        <div class="input-field center-align">
+                            <input type="submit" ng-disabled="contactForm.$invalid"  class="btn red white-text waves-effect waves-light" value="SUBMIT">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 l6 pull-l6">
+            <div class="card z-depth-2" style="margin-top: 7.5rem;">
+                <div class="card-content red-text text-darken-2">
+                    <p><i class="material-icons left">room</i> Port-Harcourt, Rivers State, Nigeria.</p>
+                    <p style="margin-top: 1rem;"><i class="material-icons left">phone</i> +2348058637720</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,31 @@
+<section class="skills">
+    <div class="row">
+        <h2 class="red-text text-darken-2">Skills</h2>
+        <div class="col s12 l6">
+            <div class="card z-depth-0 transparent">
+                <div class="card-content">
+                    <div class="content" ng-repeat="skill in front" ng-repeat="obj in elwidth">
+                        <h5 class="red-text text-darken-2">{{skill.name}}</h5>
+                        <p>{{skill.percent}}%</p>
+                        <div class="progress white" ng-class=skill.class>
+                            <div class="inner red"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 l6">
+            <div class="card z-depth-0 transparent">
+                <div class="card-content">
+                    <div class="content" ng-repeat="skill in back">
+                        <h5 class="red-text text-darken-2">{{skill.name}}</h5>
+                        <p>{{skill.percent}}%</p>
+                        <div class="progress white" ng-class="skill.class">
+                            <div class="inner red"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

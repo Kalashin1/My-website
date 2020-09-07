@@ -1,0 +1,63 @@
+{
+    "services" : {
+        "webDesign" :  {
+            "title" : "Web Desing",
+            "icon" : "code",
+            "text" : "I Think elegant and robust when it comes to web design, I utilize a modern design approach giving your website a sleek look and feel."
+        },
+        "webDevelopment" :  {
+            "title" : "Web Development",
+            "icon" : "devices_other",
+            "text" : "Your website needs an upgrade, I scale up old web app and transform them to into modern looking websites."
+        },
+        "contentCreation" :  {
+            "title" : "Content Development",
+            "icon" : "border_color",
+            "text" : "Need original and unique content on your website? Look no further let me transform your platform with content tailored to your target market"
+        },
+        "ui/ux" :  {
+            "title" : "UI/UX Desing",
+            "icon" : "phone_iphone",
+            "text" : "My designs gives your target audience better experience while using your apps. Original custom built ui/ux templates for your apps, leave your users satisfied."
+        },
+        "S.O.E" :  {
+            "title" : "Search Engine Optimization",
+            "icon" : "search",
+            "text" : "You need more traffic on your website or you need to rank higher on search Engines, or you need to reach new audience, we can optimize your platform for search engines."
+        },
+        "SocialMedia" :  {
+            "title" : "Social Media Marketing",
+            "icon" : "shop",
+            "text" : "I can help you utilize the power that social media platforms provide increasing your audience."
+        }
+    },
+    "front": {
+            "html" : {
+                "percent" : 90,
+                "name" : "HTML",
+                "class" : "html"},
+            "css" : {
+                "percent" : 90,
+                "name": "CSS",
+                "class": "css"},
+            "javascript" :{
+                "percent" : 75,
+                "name": "JAVASCRIPT/TYPESCRIPT",
+                "class" : "javascript"}
+    },
+"back" : {
+    "mysql" :{
+        "percent" : 80,
+        "name": "MySQL/RDBMS",
+        "class": "mysql"},
+    "php" : {
+        "percent" : 65,
+        "name": "PHP",
+        "class" : "php"},
+    "node" : {
+        "percent" : 70,
+        "name" : "Node.Js",
+        "class" : "node"}
+    }
+}
+

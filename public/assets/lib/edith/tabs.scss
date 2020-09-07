@@ -1,0 +1,44 @@
+.tab-links a.active{
+    display: block;
+    border-bottom: 3px solid grey;
+}
+
+.tab-content .tab.active{
+    display: block !important;
+}
+
+.tabsk{
+    display: block;
+
+    .tab-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 100%;
+        border-bottom: 1px solid lightgray;
+
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            text-align: left;
+            flex-basis: 20%;
+            margin: 0;
+            padding: .5rem .3rem;
+            
+        }
+    }
+
+    .tab-content{
+        display: block;
+
+        .tab{
+            padding: .5rem;
+            display: none;
+
+            *{
+                margin: .5rem 0;
+            }
+        }
+    }
+}

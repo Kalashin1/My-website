@@ -1,0 +1,54 @@
+.tab-links a.active {
+  display: block;
+  border-bottom: 3px solid grey;
+}
+
+.tab-content .tab.active {
+  display: block !important;
+}
+
+.tabsk {
+  display: block;
+}
+
+.tabsk .tab-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+
+.tabsk .tab-links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: left;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  margin: 0;
+  padding: .5rem .3rem;
+}
+
+.tabsk .tab-content {
+  display: block;
+}
+
+.tabsk .tab-content .tab {
+  padding: .5rem;
+  display: none;
+}
+
+.tabsk .tab-content .tab * {
+  margin: .5rem 0;
+}
+/*# sourceMappingURL=tabs.css.map */
